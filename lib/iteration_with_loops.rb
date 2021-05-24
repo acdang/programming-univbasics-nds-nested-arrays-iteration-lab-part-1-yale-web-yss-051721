@@ -9,5 +9,6 @@ def find_even_values(src)
       p src[row][element] if (src[row][element] % 2 == 0)
       element += 1
     end
+    row += 1
   end
 end
